@@ -9,3 +9,19 @@
     top: -12px;
     right: 32px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: blue;
+    }
+    &.active{
+        color: blue;
+    }
+}
+
+.logo{
+    cursor: pointer;
+}
